@@ -15,7 +15,7 @@
             android:id="@+id/pro_img"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_400dp"
-            android:src="@mipmap/ic_launcher"
+            tools:src="@mipmap/ic_launcher"
             android:layout_gravity="center"
             android:padding="@dimen/dimen_10dp"/>
 

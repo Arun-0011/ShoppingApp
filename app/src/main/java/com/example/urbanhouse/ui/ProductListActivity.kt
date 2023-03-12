@@ -894,7 +894,7 @@ class ProductListActivity : AppCompatActivity() {
 
         productAdapter.productClick = {
             val intent = Intent(this, DetailActivity::class.java)
-            intent.putExtra("ProductDetail",it)
+            intent.putExtra("product",it)
             startActivity(intent)
         }
     }

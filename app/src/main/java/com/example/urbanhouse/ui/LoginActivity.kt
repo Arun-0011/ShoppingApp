@@ -1,11 +1,19 @@
 package com.example.urbanhouse.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.urbanhouse.R
 import com.example.urbanhouse.databinding.ActivityLoginBinding
+import com.example.urbanhouse.models.LoginRequest
+import com.example.urbanhouse.models.LoginResponse
+import com.example.urbanhouse.retrofit.ApiInterface
+import com.example.urbanhouse.retrofit.RetrofitClient
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
 
 class LoginActivity : AppCompatActivity() {
     private var binding: ActivityLoginBinding? = null
@@ -46,9 +54,47 @@ class LoginActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT
                 ).show()
             } else {
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
+                loginApi(binding?.edTxtEmail?.text?.trim().toString(), binding?.edTxtPass?.text?.trim().toString())
             }
         }
+    }
+
+    private fun loginApi(username: String, password: String) {
+        val apiInterface = RetrofitClient.getInstance().create(ApiInterface::class.java)
+
+        apiInterface.loginApi(LoginRequest(username = username, password = password))
+            .enqueue(object :
+                Callback<LoginResponse> {
+                override fun onResponse(
+                    call: Call<LoginResponse>,
+                    response: Response<LoginResponse>
+                ) {
+                    if (response.code() == 200 || response.code() == 201) {
+                        startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Login success!",
+                            Toast.LENGTH_SHORT
+                        )
+                            .show()
+
+                    } else {
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Enter valid credentials",
+                            Toast.LENGTH_SHORT
+                        )
+                            .show()
+                    }
+                }
+
+                override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
+                    Toast.makeText(
+                        this@LoginActivity,
+                        t.message,
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            })
     }
 }
