@@ -1,5 +1,7 @@
 package com.example.urbanhouse.ui
 
+import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -59,6 +61,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("CommitPrefEdits")
     private fun loginApi(username: String, password: String) {
         val apiInterface = RetrofitClient.getInstance().create(ApiInterface::class.java)
 
@@ -77,6 +80,16 @@ class LoginActivity : AppCompatActivity() {
                             Toast.LENGTH_SHORT
                         )
                             .show()
+                        val sharedPreference =
+                            getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+                        val data = sharedPreference.edit()
+                        data.putString("username", response.body()?.username)
+                        data.putString("email", response.body()?.email)
+                        data.putString("firstName", response.body()?.firstName)
+                        data.putString("lastName", response.body()?.lastName)
+                        data.putString("gender", response.body()?.gender)
+                        data.putString("image", response.body()?.image)
+                        data.commit()
 
                     } else {
                         Toast.makeText(
