@@ -1,8 +1,7 @@
 package com.example.urbanhouse.ui
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.urbanhouse.databinding.ActivityForPassBinding
 
 class ForPassActivity : AppCompatActivity() {
@@ -12,8 +11,7 @@ class ForPassActivity : AppCompatActivity() {
         binding = ActivityForPassBinding.inflate((layoutInflater))
         setContentView(binding!!.root)
 
-        val backBtn = binding!!.back
-        backBtn.setOnClickListener {
+        binding!!.back.setOnClickListener {
             finish()
         }
     }

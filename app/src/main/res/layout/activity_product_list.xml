@@ -3,8 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.ProductListActivity">
+    <include layout="@layout/toolbar"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/dimen_50dp"
         android:id="@+id/product_list_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

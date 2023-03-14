@@ -32,7 +32,7 @@
             android:id="@+id/product_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ustra"
+            android:text="@string/str_ustra"
             android:textSize="@dimen/dimen_12dp"
             android:textColor="@color/edit_txt_color"
             android:layout_marginTop="@dimen/dimen_4dp"

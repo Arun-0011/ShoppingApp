@@ -2,6 +2,7 @@ package com.example.urbanhouse.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.urbanhouse.databinding.ActivityDetailBinding
 import com.example.urbanhouse.models.ProductModel
