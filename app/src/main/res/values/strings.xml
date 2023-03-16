@@ -52,6 +52,11 @@
     <string name="str_total">Total</string>
     <string name="str_shipping">Shipping</string>
     <string name="str_checkout">CHECKOUT</string>
+    <string name="str_contactus">Contact Us</string>
+    <string name="str_faq">FAQ</string>
+    <string name="str_aboutus">About Us</string>
+    <string name="str_refund">Refund</string>
+    <string name="str_terms_poli">Terms and Policies</string>
     <string name="str_quantity">Quantity</string>
 
 
