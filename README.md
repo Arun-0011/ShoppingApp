@@ -8,6 +8,8 @@ an Api. Platform used for this application is Android Studio.
 - Language- Kotlin
 - Retrofit/ okhttp
 
+      Login username: kminchelle
+      Login password: 0lelplR
 
 Screenshots
 
