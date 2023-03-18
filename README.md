@@ -6,7 +6,9 @@ an Api. Platform used for this application is Android Studio.
 - Android studio latest version
 - Supports API Level +21
 - Language- Kotlin
+- Recyclerview
 - Retrofit/ okhttp
+- Get/Post methods
 
       Login username: kminchelle
       Login password: 0lelplR
