@@ -3,7 +3,6 @@ package com.example.urbanhouse.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.app.apiproject.ui.CategoriesFragment
 import com.example.urbanhouse.R
 import com.example.urbanhouse.databinding.ActivityMainBinding
 

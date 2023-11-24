@@ -4,19 +4,19 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class PlaceOrderModel(
-    var img : Int,
+    var img : String?,
     var name : String?,
     var price : String?,
 ): Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readInt(),
+        parcel.readString(),
         parcel.readString(),
         parcel.readString()
     ) {
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
-        parcel.writeInt(img)
+        parcel.writeString(img)
         parcel.writeString(name)
         parcel.writeString(price)
     }

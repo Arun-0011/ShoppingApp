@@ -36,13 +36,13 @@ class PlaceOrderActivity : AppCompatActivity() {
         val orderList = ArrayList<PlaceOrderModel>()
         orderList.add(
             PlaceOrderModel(
-                img = detail?.img!!,
+                img = detail?.img,
                 name = detail?.name,
                 price = detail?.price
             )
         )
 
-        placeOrderAdapter = PlaceOrderAdapter(orderList)
+        placeOrderAdapter = PlaceOrderAdapter(this, orderList)
         recyclerView.adapter = placeOrderAdapter
     }
 }

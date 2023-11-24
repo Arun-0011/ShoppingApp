@@ -9,23 +9,22 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
-import com.example.urbanhouse.databinding.GridViewDesignBinding
+import com.example.urbanhouse.databinding.ListHomeBinding
+import com.example.urbanhouse.models.CategoriesModel
 import com.example.urbanhouse.models.HomeModel
-import com.example.urbanhouse.retrofit.RecyclerviewOnClick
 
-class CategoriesAdapter(
+class HomeAdapter(
     private val activity: Activity,
     private var list: java.util.ArrayList<HomeModel> = java.util.ArrayList(),
-    private var recyclerviewOnClick: RecyclerviewOnClick
 
-) : RecyclerView.Adapter<CategoriesAdapter.ViewHolder>() {
+    ) : RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
 
-    inner class ViewHolder(internal val binding: GridViewDesignBinding) :
+    inner class ViewHolder(internal val binding: ListHomeBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding =
-            GridViewDesignBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            ListHomeBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
@@ -33,8 +32,8 @@ class CategoriesAdapter(
         holder.apply {
             with(list[position]) {
                 binding.apply {
-                    fraTextView.text = name
-                    fraImageView.let {
+                    tvSong.text = name
+                    ivImage.let {
                         Glide.with(activity)
                             .load(image)
                             .diskCacheStrategy(DiskCacheStrategy.ALL)
@@ -63,9 +62,6 @@ class CategoriesAdapter(
                             }).into(it)
                     }
 
-                    holder.itemView.setOnClickListener {
-                        recyclerviewOnClick.onClick(position, 0, it)
-                    }
 
                 }
             }
