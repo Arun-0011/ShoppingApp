@@ -12,10 +12,12 @@ import com.bumptech.glide.request.RequestListener
 import com.example.urbanhouse.databinding.ListHomeBinding
 import com.example.urbanhouse.models.CategoriesModel
 import com.example.urbanhouse.models.HomeModel
+import com.example.urbanhouse.retrofit.RecyclerviewOnClick
 
 class HomeAdapter(
     private val activity: Activity,
     private var list: java.util.ArrayList<HomeModel> = java.util.ArrayList(),
+    private var recyclerviewOnClick: RecyclerviewOnClick
 
     ) : RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
 
@@ -61,7 +63,9 @@ class HomeAdapter(
                                 }
                             }).into(it)
                     }
-
+                    holder.itemView.setOnClickListener {
+                        recyclerviewOnClick.onClick(position, 0, it)
+                    }
 
                 }
             }

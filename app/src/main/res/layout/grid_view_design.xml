@@ -14,7 +14,7 @@
             android:id="@+id/fra_imageView"
             android:layout_width="@dimen/dimen_70dp"
             android:layout_height="@dimen/dimen_100dp"
-            android:src="@drawable/perfume4"
+            android:src="@drawable/img10"
             android:layout_gravity="center"/>
 
         <androidx.appcompat.widget.AppCompatTextView

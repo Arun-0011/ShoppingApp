@@ -47,6 +47,7 @@ class CategoriesFragment : Fragment() {
             override fun onClick(position: Int, viewType: Int, view: View) {
                 val intent = Intent(context, ProductListActivity::class.java)
                 intent.putExtra("product", position)
+                intent.putExtra("type", "categories")
                 startActivity(intent)
             }
         })

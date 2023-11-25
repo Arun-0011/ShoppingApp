@@ -22,9 +22,6 @@
             android:name=".ui.ProductListActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.Horizontal_SV_Activity"
-            android:exported="false" />
-        <activity
             android:name=".ui.OtpActivity"
             android:exported="false" />
         <activity
@@ -36,11 +33,11 @@
         <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".ui.MainActivity"-->
-<!--            android:exported="false" />-->
         <activity
             android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Transparent">
             <intent-filter>
