@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">URBAN HOUSE</string>
+    <string name="app_name">Better Buys</string>
     <string name="str_abcd">XXXXXXXXX</string>
     <string name="str_login">Login</string>
     <string name="str_user_name">User Name</string>
@@ -63,4 +63,5 @@
     <string name="google">Google LLC is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.</string>
     <string name="str_enter_valid_email">Enter valid email</string>
     <string name="str_enter_valid_pw">Enter valid password</string>
+    <string name="free">Free</string>
 </resources>

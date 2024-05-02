@@ -28,10 +28,15 @@ class PlaceOrderActivity : AppCompatActivity() {
         binding!!.back.setOnClickListener {
             finish()
         }
+        binding!!.btnCheckout.setOnClickListener {
+            DialogOrderConfirm(this).showPopup()
+        }
+
     }
 
     private fun setAdapter() {
         recyclerView = binding!!.placeOrderRview
+        binding?.tvPrice?.text = detail?.price
         recyclerView.layoutManager = LinearLayoutManager(this)
         val orderList = ArrayList<PlaceOrderModel>()
         orderList.add(
@@ -42,7 +47,10 @@ class PlaceOrderActivity : AppCompatActivity() {
             )
         )
 
-        placeOrderAdapter = PlaceOrderAdapter(this, orderList)
+        placeOrderAdapter = PlaceOrderAdapter(this, orderList) {
+            val subTotal = it * detail?.price!!.toInt()
+            binding?.tvPrice?.text = subTotal.toString()
+        }
         recyclerView.adapter = placeOrderAdapter
     }
 }

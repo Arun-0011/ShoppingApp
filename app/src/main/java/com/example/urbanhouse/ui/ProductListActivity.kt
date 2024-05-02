@@ -202,7 +202,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61tODdzQ6AL._SY879_.jpg",
                             "FASHSTORE",
                             "Smile",
-                            "1,299"
+                            "1299"
                         )
                     )
                     productList.add(
@@ -218,7 +218,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61zeFBPoU8L._SX679_.jpg",
                             "GRECIILOOKS",
                             "Smile",
-                            "1,999"
+                            "1999"
                         )
                     )
                     productList.add(
@@ -234,7 +234,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71+Aychj6uL._SY879_.jpg",
                             "PUMA",
                             "Smile",
-                            "1,249"
+                            "1249"
                         )
                     )
                     productList.add(
@@ -242,7 +242,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61ShiYi37NL._SY879_.jpg",
                             "The Souled Store",
                             "Smile",
-                            "1,049"
+                            "1049"
                         )
                     )
                     productList.add(
@@ -301,7 +301,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81271aov+AL._SY879_.jpg",
                             "FIORRA",
                             "Smile",
-                            "1,849"
+                            "1849"
                         )
                     )
                     productList.add(
@@ -309,7 +309,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81dYpSPcIwL._SY879_.jpg",
                             "Naixa",
                             "Smile",
-                            "1,049"
+                            "1049"
                         )
                     )
                     productList.add(
@@ -349,7 +349,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81P07gAB9PL._SX679_.jpg",
                             "Rajnandini",
                             "Smile",
-                            "1,367"
+                            "1367"
                         )
                     )
                     productList.add(
@@ -409,7 +409,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81uoCK2vU9L._SX679_.jpg",
                             "Kanelle Luxury Perfume",
                             "Smile",
-                            "1,299"
+                            "1299"
                         )
                     )
                     productList.add(
@@ -425,7 +425,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71zK+IF+NrL._SX522_.jpg",
                             "GUESS Seductive Woman Eau de Toilette",
                             "Smile",
-                            "1,698"
+                            "1698"
                         )
                     )
 
@@ -438,7 +438,7 @@ class ProductListActivity : AppCompatActivity() {
                             " https://m.media-amazon.com/images/I/71y3hHf2mjL._SY695_.jpg",
                             "Mochi",
                             "Smile",
-                            "1,990"
+                            "1990"
                         )
                     )
                     productList.add(
@@ -446,7 +446,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/41Yr+9mBHqL._SY695_.jpg",
                             "Doctor Walk",
                             "Smile",
-                            "1,99"
+                            "1999"
                         )
                     )
 
@@ -471,7 +471,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61z3klxdljL._SY695_.jpg",
                             "Lino Perros",
                             "Smile",
-                            "1,998"
+                            "1998"
                         )
                     )
                     productList.add(
@@ -523,7 +523,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61yZVaZjpTL._SX679_.jpg",
                             "Fastrack",
                             "Smile",
-                            "1,663"
+                            "1663"
                         )
                     )
                     productList.add(
@@ -539,7 +539,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71KjjVqWQsL._SX679_.jpg",
                             "Fastrack",
                             "Smile",
-                            "2,299"
+                            "2299"
                         )
                     )
                     productList.add(
@@ -547,7 +547,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61V2AN2oyPL._SY879_.jpg",
                             "Giordano",
                             "Smile",
-                            "3,180"
+                            "3180"
                         )
                     )
                     productList.add(
@@ -555,7 +555,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/51iafUyxGUL._SY879_.jpg",
                             "Acnos",
                             "Smile",
-                            "2,180"
+                            "2180"
                         )
                     )
                     productList.add(
@@ -592,7 +592,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71xHKm9i82L._SY695_.jpg",
                             "Estele",
                             "Smile",
-                            "1,049"
+                            "1049"
                         )
                     )
                     productList.add(
@@ -624,7 +624,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61wASh1CSrL._SY695_.jpg",
                             "YouBella",
                             "Smile",
-                            "1,099"
+                            "1099"
                         )
                     )
                     productList.add(
@@ -648,7 +648,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71TS5BY5tfL._SY695_.jpg",
                             "Shining Diva Fashion",
                             "Smile",
-                            "1,099"
+                            "1099"
                         )
                     )
 
@@ -660,7 +660,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71cEBNCJqCL._SX695_.jpg",
                             "NASHEMAN",
                             "Smile",
-                            "3,299"
+                            "3299"
                         )
                     )
                     productList.add(
@@ -676,7 +676,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61NhaCR1UDL._SY695_.jpg",
                             "EXOTIC",
                             "Smile",
-                            "1,207"
+                            "1207"
                         )
                     )
                     productList.add(
@@ -684,7 +684,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/91NZZEEzOxL._SY695_.jpg",
                             "Speed X Fashion",
                             "Smile",
-                            "1,039"
+                            "1039"
                         )
                     )
                     productList.add(
@@ -692,7 +692,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71tditpZCKL._SY695_.jpg",
                             "EXOTIC",
                             "Smile",
-                            "1,102"
+                            "1102"
                         )
                     )
                     productList.add(
@@ -700,7 +700,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81SRDNUx+kL._SY695_.jpg",
                             "Lavie",
                             "Smile",
-                            "1,169"
+                            "1169"
                         )
                     )
                     productList.add(
@@ -708,7 +708,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/911y3t7YysL._SY695_.jpg",
                             "Lino Perros",
                             "Smile",
-                            "1,349"
+                            "1349"
                         )
                     )
                     productList.add(
@@ -775,7 +775,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61aQGkHIOdL._SX679_.jpg",
                             "HUDA ZONE Professional Waterproof HD Makeup Kit Combo",
                             "Smile",
-                            "1,299"
+                            "1299"
                         )
                     )
                     productList.add(
@@ -795,7 +795,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81ng3JbCBZL._SY695_.jpg",
                             "White Dual Beeded Cord Pearl Purses Shoulder Bag",
                             "Smile",
-                            "1,799"
+                            "1799"
                         )
                     )
                     productList.add(
@@ -803,7 +803,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71fbmT6PHuL._SX679_.jpg",
                             "Fire-Boltt Xelor Luxury Stainless Steel Smart Watch",
                             "Smile",
-                            "2,349"
+                            "2349"
                         )
                     )
                     productList.add(
@@ -811,7 +811,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/7134Ds7j4dL._SX679_.jpg",
                             "GUCCI BLOOM EAU DE PARFUM",
                             "Smile",
-                            "8,999"
+                            "8999"
                         )
                     )
                     productList.add(
@@ -819,7 +819,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/913ZML7udYL._SX695_.jpg",
                             "FLYING BERRY",
                             "Smile",
-                            "2,595"
+                            "2595"
                         )
                     )
                     productList.add(
@@ -827,7 +827,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61TED04B1bL._SX522_.jpg",
                             "Beauty Garage Professional Keratin Smooth Daily Shampoo",
                             "Smile",
-                            "1,823"
+                            "1823"
                         )
                     )
                     productList.add(
@@ -835,7 +835,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/8101iv+UbmL._SY695_.jpg",
                             "H & M",
                             "Smile",
-                            "2,999"
+                            "2999"
                         )
                     )
                     productList.add(
@@ -843,7 +843,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71fqH2aS06L._SY695_.jpg",
                             "GUCCI",
                             "Smile",
-                            "3,999"
+                            "3999"
                         )
                     )
                     productList.add(
@@ -851,7 +851,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61MKOT1WDFL._SY695_.jpg",
                             "RED TAPE",
                             "Smile",
-                            "5,999"
+                            "5999"
                         )
                     )
                 }
@@ -948,7 +948,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61tODdzQ6AL._SY879_.jpg",
                             "FASHSTORE",
                             "Smile",
-                            "1,299"
+                            "1299"
                         )
                     )
                     productList.add(
@@ -964,7 +964,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61zeFBPoU8L._SX679_.jpg",
                             "GRECIILOOKS",
                             "Smile",
-                            "1,999"
+                            "1999"
                         )
                     )
                     productList.add(
@@ -980,7 +980,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71+Aychj6uL._SY879_.jpg",
                             "PUMA",
                             "Smile",
-                            "1,249"
+                            "1249"
                         )
                     )
                     productList.add(
@@ -988,7 +988,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61ShiYi37NL._SY879_.jpg",
                             "The Souled Store",
                             "Smile",
-                            "1,049"
+                            "1049"
                         )
                     )
                     productList.add(
@@ -1030,7 +1030,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71cEBNCJqCL._SX695_.jpg",
                             "NASHEMAN",
                             "Smile",
-                            "3,299"
+                            "3299"
                         )
                     )
                     productList.add(
@@ -1046,7 +1046,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61NhaCR1UDL._SY695_.jpg",
                             "EXOTIC",
                             "Smile",
-                            "1,207"
+                            "1207"
                         )
                     )
                     productList.add(
@@ -1054,7 +1054,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/91NZZEEzOxL._SY695_.jpg",
                             "Speed X Fashion",
                             "Smile",
-                            "1,039"
+                            "1039"
                         )
                     )
                     productList.add(
@@ -1062,7 +1062,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71tditpZCKL._SY695_.jpg",
                             "EXOTIC",
                             "Smile",
-                            "1,102"
+                            "1102"
                         )
                     )
                     productList.add(
@@ -1070,7 +1070,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/81SRDNUx+kL._SY695_.jpg",
                             "Lavie",
                             "Smile",
-                            "1,169"
+                            "1169"
                         )
                     )
                     productList.add(
@@ -1078,7 +1078,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/911y3t7YysL._SY695_.jpg",
                             "Lino Perros",
                             "Smile",
-                            "1,349"
+                            "1349"
                         )
                     )
                     productList.add(
@@ -1096,7 +1096,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61yZVaZjpTL._SX679_.jpg",
                             "Fastrack",
                             "Smile",
-                            "1,663"
+                            "1663"
                         )
                     )
                     productList.add(
@@ -1112,7 +1112,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/71KjjVqWQsL._SX679_.jpg",
                             "Fastrack",
                             "Smile",
-                            "2,299"
+                            "2299"
                         )
                     )
                     productList.add(
@@ -1120,7 +1120,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61V2AN2oyPL._SY879_.jpg",
                             "Giordano",
                             "Smile",
-                            "3,180"
+                            "3180"
                         )
                     )
                     productList.add(
@@ -1128,7 +1128,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/51iafUyxGUL._SY879_.jpg",
                             "Acnos",
                             "Smile",
-                            "2,180"
+                            "2180"
                         )
                     )
                     productList.add(
@@ -1165,7 +1165,7 @@ class ProductListActivity : AppCompatActivity() {
                             " https://m.media-amazon.com/images/I/71y3hHf2mjL._SY695_.jpg",
                             "Mochi",
                             "Smile",
-                            "1,990"
+                            "1990"
                         )
                     )
                     productList.add(
@@ -1173,7 +1173,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/41Yr+9mBHqL._SY695_.jpg",
                             "Doctor Walk",
                             "Smile",
-                            "1,99"
+                            "199"
                         )
                     )
 
@@ -1198,7 +1198,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61z3klxdljL._SY695_.jpg",
                             "Lino Perros",
                             "Smile",
-                            "1,998"
+                            "1998"
                         )
                     )
                     productList.add(
@@ -1297,7 +1297,7 @@ class ProductListActivity : AppCompatActivity() {
                             "https://m.media-amazon.com/images/I/61aQGkHIOdL._SX679_.jpg",
                             "HUDA ZONE Professional Waterproof HD Makeup Kit Combo",
                             "Smile",
-                            "1,299"
+                            "1299"
                         )
                     )
                     productList.add(
